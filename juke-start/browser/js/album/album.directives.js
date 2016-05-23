@@ -4,9 +4,9 @@ albumDirectives.directive('albumList', function(){
 	return {
 		restrict: 'E',
 		scope: {
-
+			albums: '='
 		},
-		templateUrl: '/js/album/templates/albums.html'
+		templateUrl: '/js/album/templates/albumList.html'
 	};
 });
 
