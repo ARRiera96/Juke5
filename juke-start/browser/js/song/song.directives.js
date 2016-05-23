@@ -35,7 +35,7 @@ songDirectives.directive('doubleClick', function(PlayerFactory){
     return {
         restrict: 'A',
         scope: {
-            doubleClick: '&'g
+            doubleClick: '&'
             //foo: '&doubleClick'
         },
         link: function (scope, element, attr){
